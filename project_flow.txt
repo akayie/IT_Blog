@@ -83,5 +83,19 @@ category [hardcode]
   - Post detail
 
 
+==================================================================================
 
+- students
+ - id (PK,AI)
+ - name [Varchar] - text
+ - gender [ Varchar] - radio | select option
+ - address [Text] - textarea
+ - 
+
+
+ -TODO
+  - Auth (Register / Login)
+  - Create Post by author
+  - Public / reject by admin
+  - Retrieve posts for readers
 
