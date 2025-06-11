@@ -1,11 +1,13 @@
 Blog
 ===
 
+
 Features
 =========
 -User(reader,writer,admin)
 -Posts
  -category
+
 
 Posts
 =====
@@ -20,10 +22,12 @@ Reader => Can view all posts
        => detail view
        => filter by category
 
+
 writer => Register
        => Login
        => by own posts (public, reject)
        => create, edit, delete
+
 
 Juu => Register
        => Login
@@ -31,11 +35,13 @@ Juu => Register
        => by own posts (public, reject)
        => create, edit, delete
 
+
 Admin   => Login
         => all posts <- writers' created posts
         => detail view
         => public
         => reject (reason)
+
 
 Mg Mg   => Login
         => all posts <- writers' created posts
@@ -43,8 +49,10 @@ Mg Mg   => Login
         => public
         => reject (reason)
 
+
 category [hardcode]
  -create, retrieve, update, delete
+
 
 1. DB create
  - categories
@@ -58,6 +66,7 @@ category [hardcode]
   - password [varchar] <= hash
   - role (writer, admin) [varchar]
 
+
  - posts
   - id [PK, AI]
   - title [varchar]
@@ -68,6 +77,7 @@ category [hardcode]
   - published_at [timestamp, NULL]
   -created_at [timestamp]
 
+
 2. Design (Front Side)
  - Reader
   - All blogs posts (Home)
@@ -76,6 +86,7 @@ category [hardcode]
   - Register / Login
   - CRUD (Create, Retrieve, Update, Delete) - Blog Posts
 
+
 3. Design (Back Side)
  - Admin
   - CRUD (Categories)
@@ -83,7 +94,7 @@ category [hardcode]
   - Post detail
 
 
-==================================================================================
+====================================================================================================================================
 
 - students
  - id (PK,AI)
